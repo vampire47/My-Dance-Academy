@@ -1,0 +1,12 @@
+#services {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: violet;
+}
+
+.spImage {
+    height: 80%;
+    width: 30%;
+    margin: 20px;
+}

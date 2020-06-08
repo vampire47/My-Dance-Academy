@@ -1,0 +1,21 @@
+//- layout.pug
+html
+  head
+    title MDA
+    block scripts
+    block style
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/l1.jpg")
+          | MDA
+        li #[a(href="/") Home]
+        li #[a(href="/about") About]
+        li #[a(href="/services") Services]
+
+        li #[a(href="/contact") Contact Us]
+    block content
+    block foot
+    footer#footer
+      |Copyright &copy 2020 MDA.com | All rights reserved.

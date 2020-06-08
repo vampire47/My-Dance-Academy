@@ -1,0 +1,45 @@
+//- index.pug
+doctype html
+html
+  head
+    title My Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/l1.jpg")
+          | MDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact Us]
+    section#introSection
+      div| Welcome to My Dance Academy
+      div.small|Eat Dance Sleep Repeat
+    section#mission
+      h2 Our Mission
+      div.card.card1
+        h3 Enjoy Beyond Your Limits
+        p Treat the way the Nature treats you!
+      div.card.card2
+        h3 Master Your Skills
+        p Never Back Down Attitude!
+      div.card.card3
+        h3 Dance the way you want!
+        p Theres no limit to the Dance!
+    section#sponsorsSection
+      h2 Our Sponsors
+      div#sponsors
+        img(src="/static/s1.jpg", alt="Sponsor", class="spImage")
+        img(src="/static/s2.jpg", alt="Sponsor", class="spImage")
+        img(src="/static/s3.jpg", alt="Sponsor", class="spImage")
+
+
+    section#footer
+      | Copyright &copy 2020 MDA.com | All right reserved.
+
+    script
+      include ../static/index.js

@@ -1,0 +1,16 @@
+.container {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 95px;
+}
+
+h1 {
+    background: red;
+    background-size: contain;
+}
+
+p {
+    font-size: 54px;
+}
